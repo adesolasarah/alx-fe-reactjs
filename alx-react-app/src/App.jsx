@@ -22,6 +22,7 @@ function App() {
         <p>I am learning about JSX!</p>
         <p>This is a simple JSX component.</p>
       </div>
+      <WelcomeMessage />
     </>
   );
 }
