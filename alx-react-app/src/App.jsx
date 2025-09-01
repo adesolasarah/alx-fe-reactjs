@@ -31,11 +31,7 @@ function App() {
       <Footer />
 
       <div>
-        <UserProfile
-          name="Sarah"
-          age="23"
-          bio="Passionate learner diving into frontend development"
-        />
+        <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
       </div>
     </>
   );
