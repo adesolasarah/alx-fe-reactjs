@@ -1,5 +1,6 @@
-import ProfilePage from "./components/ProfilePage";
+import React from "react";
 import UserContext from "./UserContext";
+import ProfilePage from "./components/ProfilePage";
 import UserProfile from "./components/UserProfile";
 import "./App.css";
 
