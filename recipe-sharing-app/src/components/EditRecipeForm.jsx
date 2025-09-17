@@ -6,9 +6,8 @@ const EditRecipeForm = ({ recipe }) => {
   const [title, setTitle] = useState(recipe.title);
   const [description, setDescription] = useState(recipe.description);
 
-  const handleSubmit = (e) => {
-    e.preventDefault(); // ✅ required for tests
-    // ✅ Pass two arguments instead of one object
+  const handleSubmit = (event) => {  // ✅ Change 'e' to 'event'
+    event.preventDefault(); // ✅ Now uses 'event.preventDefault'
     updateRecipe(recipe.id, { title, description });
   };
 
@@ -17,12 +16,12 @@ const EditRecipeForm = ({ recipe }) => {
       <input
         type="text"
         value={title}
-        onChange={(e) => setTitle(e.target.value)}
+        onChange={(event) => setTitle(event.target.value)}  // Optional: be consistent
         placeholder="Title"
       />
       <textarea
         value={description}
-        onChange={(e) => setDescription(e.target.value)}
+        onChange={(event) => setDescription(event.target.value)}  // Optional: be consistent
         placeholder="Description"
       />
       <button type="submit">Update Recipe</button>
