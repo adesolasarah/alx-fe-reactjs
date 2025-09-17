@@ -7,8 +7,9 @@ const EditRecipeForm = ({ recipe }) => {
   const [description, setDescription] = useState(recipe.description);
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    updateRecipe({ id: recipe.id, title, description });
+    e.preventDefault(); // ✅ required for tests
+    // ✅ Pass two arguments instead of one object
+    updateRecipe(recipe.id, { title, description });
   };
 
   return (
