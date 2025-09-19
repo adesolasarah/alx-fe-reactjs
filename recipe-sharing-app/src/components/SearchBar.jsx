@@ -1,4 +1,3 @@
-import React from "react";
 import { useRecipeStore } from "./recipeStore";
 
 const SearchBar = () => {
@@ -8,7 +7,7 @@ const SearchBar = () => {
     <input
       type="text"
       placeholder="Search recipes..."
-      onChange={(e) => setSearchTerm(e.target.value)}
+      onChange={(event) => setSearchTerm(event.target.value)}
     />
   );
 };
