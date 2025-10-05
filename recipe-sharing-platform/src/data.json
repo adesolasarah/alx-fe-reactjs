@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 3,
+    "title": "Beef Tacos",
+    "summary": "Seasoned ground beef with fresh toppings in crispy or soft tortillas.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 4,
+    "title": "Caesar Salad",
+    "summary": "Crisp romaine lettuce with parmesan cheese, croutons, and creamy Caesar dressing.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 5,
+    "title": "Pad Thai",
+    "summary": "Stir-fried rice noodles with shrimp, peanuts, egg, and tamarind sauce.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 6,
+    "title": "Margherita Pizza",
+    "summary": "Traditional Italian pizza topped with fresh mozzarella, tomatoes, and basil.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 7,
+    "title": "Chocolate Chip Cookies",
+    "summary": "Soft and chewy cookies loaded with chocolate chips and a hint of vanilla.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 8,
+    "title": "Greek Moussaka",
+    "summary": "Layered eggplant casserole with spiced meat sauce and creamy béchamel topping.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 9,
+    "title": "Sushi Rolls",
+    "summary": "Fresh fish and vegetables wrapped in seasoned rice and nori seaweed.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 10,
+    "title": "French Onion Soup",
+    "summary": "Rich beef broth with caramelized onions, topped with crusty bread and melted cheese.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 11,
+    "title": "Vegetable Stir Fry",
+    "summary": "Colorful mix of crisp vegetables tossed in a savory soy-ginger sauce.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 12,
+    "title": "Banana Bread",
+    "summary": "Moist and sweet bread made with ripe bananas and warm spices.",
+    "image": "https://via.placeholder.com/150"
+  }
+]
