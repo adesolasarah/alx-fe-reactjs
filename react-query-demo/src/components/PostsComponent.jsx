@@ -6,7 +6,7 @@ const fetchPosts = async () => {
 };
 
 const PostsComponent = () => {
-    const { data, isError, isLoading, refetch } = useQuery({
+    const { data, error, isError, isLoading, refetch } = useQuery({
         queryKey: ['posts'],
         queryFn: fetchPosts
     });
