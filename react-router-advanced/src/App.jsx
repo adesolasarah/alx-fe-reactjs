@@ -28,7 +28,7 @@ function App() {
           <Route path="settings" element={<ProfileSettings />} />
         </Route>
 
-        <Route path= "/blog/:Id" element={<BlogPost />} />
+        <Route path= "/blog/:id" element={<BlogPost />} />
       </Routes>
     </BrowserRouter>
   );
