@@ -18,20 +18,20 @@ function TodoList() {
       text: newTodo,
       completed: false,
     };
-    setTodos([...todos, newItem]);
+    setTodos((prev) => [...prev, newItem]);
     setNewTodo("");
   };
 
   const handleToggleTodo = (id) => {
-    setTodos(
-      todos.map((todo) =>
+    setTodos((prev) =>
+      prev.map((todo) =>
         todo.id === id ? { ...todo, completed: !todo.completed } : todo
       )
     );
   };
 
   const handleDeleteTodo = (id) => {
-    setTodos(todos.filter((todo) => todo.id !== id));
+    setTodos((prev) => prev.filter((todo) => todo.id !== id));
   };
 
   return (
@@ -49,13 +49,22 @@ function TodoList() {
 
       <ul>
         {todos.map((todo) => (
-          <li key={todo.id} onClick={() => handleToggleTodo(todo.id)}>
+          <li
+            key={todo.id}
+            onClick={() => handleToggleTodo(todo.id)}
+            style={{
+              cursor: "pointer",
+              textDecoration: todo.completed ? "line-through" : "none",
+            }}
+          >
             {todo.text}
             <button
+              data-testid={`delete-${todo.text}`}
               onClick={(e) => {
                 e.stopPropagation();
                 handleDeleteTodo(todo.id);
               }}
+              style={{ marginLeft: "10px" }}
             >
               Delete
             </button>
